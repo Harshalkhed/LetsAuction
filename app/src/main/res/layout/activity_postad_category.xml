@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".postad_category"
+    android:weightSum="2"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/toolbarbg"
+        app:title="Post Free Ad"
+        app:titleTextColor="#ffffff"
+
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:src="@drawable/Select_Category"
+        android:padding="10dp"
+       />
+
+    <GridLayout
+        android:id="@+id/grid_layout_ld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="3"
+        android:layout_marginBottom="1dp"
+        android:background="#ffffff"
+        android:paddingStart="1dp"
+        android:paddingTop="1dp"
+        android:paddingLeft="1dp"
+
+        >
+
+        <ImageButton
+            android:id="@+id/electronics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/transparent"
+            android:src="@drawable/Electronics"
+            android:contextClickable="true"
+
+            />
+        <ImageButton
+            android:id="@+id/mobiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/transparent"
+            android:src="@drawable/Mobiles"
+            android:contextClickable="true"
+
+            />
+        <ImageButton
+        android:id="@+id/Furniture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/transparent"
+        android:src="@drawable/Furniture"
+        android:contextClickable="true"
+
+        />
+        <ImageButton
+        android:id="@+id/cars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/transparent"
+        android:src="@drawable/Cars"
+        android:contextClickable="true"
+
+        />
+        <ImageButton
+        android:id="@+id/bikes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/transparent"
+        android:src="@drawable/Bikes"
+        android:contextClickable="true"
+
+        />
+        <ImageButton
+        android:id="@+id/antiques"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/transparent"
+        android:src="@drawable/Antiques"
+        android:contextClickable="true"
+
+        />
+        <ImageButton
+        android:id="@+id/realestates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/transparent"
+        android:src="@drawable/RealEstates"
+            android:padding="6dp"
+        android:contextClickable="true"
+
+        />
+        <ImageButton
+        android:id="@+id/office_equipments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/transparent"
+        android:src="@drawable/Officeequipments"
+        android:contextClickable="true"
+
+        />
+        <ImageButton
+        android:id="@+id/sports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/transparent"
+        android:src="@drawable/Sports"
+        android:contextClickable="true"
+
+        />
+        <ImageButton
+        android:id="@+id/watches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/transparent"
+        android:src="@drawable/Watches"
+        android:contextClickable="true"
+
+        /><ImageButton
+        android:id="@+id/jwellery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/transparent"
+        android:src="@drawable/Jwellery"
+        android:contextClickable="true"
+
+        />
+        <ImageButton
+        android:id="@+id/stationery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/transparent"
+        android:src="@drawable/Stationery"
+        android:padding="10dp"
+        android:contextClickable="true"
+
+        />
+
+  </GridLayout>
+
+
+
+
+
+</LinearLayout>

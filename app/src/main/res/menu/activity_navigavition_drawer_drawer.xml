@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/Group1"
+        >
+        <item
+
+            android:id="@+id/nav_auction"
+            android:icon="@drawable/ic_auction"
+            android:title="My Auctions"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_posts"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="My Posts"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Home"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_organized_auction"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Organized Auctions"
+            tools:ignore="HardcodedText" />
+    </group>
+
+
+        <item android:title="Communicate"
+            tools:ignore="HardcodedText">
+            <menu>
+                <item
+                    android:id="@+id/nav_contact_us"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Contact us" />
+                <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Logout" />
+            </menu>
+        </item>
+
+
+
+
+</menu>

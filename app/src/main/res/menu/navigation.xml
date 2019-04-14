@@ -9,6 +9,7 @@
     <item
         android:id="@+id/navigation_chat_button"
         android:icon="@drawable/ic_outline_chat_"
+
         android:title="Chat" />
 
     <item

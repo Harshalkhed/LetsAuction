@@ -20,7 +20,7 @@ public class bottom_navigation extends AppCompatActivity {
                 case R.id.navigation_home:
                     mTextMessage.setText(R.string.title_home);
                     return true;
-                case R.id.navigation_home_button:
+                case R.id.navigation_chat_button:
                     mTextMessage.setText(R.string.title_dashboard);
                     return true;
                 case R.id.navigation_auction_button:
@@ -40,5 +40,8 @@ public class bottom_navigation extends AppCompatActivity {
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
+    public void gotodashactivity()
+    {}
+
 
 }

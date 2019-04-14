@@ -19,7 +19,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="38dp"
-        android:src="@drawable/Select_Category"
+        android:src="@drawable/select_category"
         android:padding="10dp"
        />
 
@@ -44,7 +44,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
             android:background="@color/transparent"
-            android:src="@drawable/Electronics"
+            android:src="@drawable/electronics"
             android:contextClickable="true"
 
             />
@@ -55,7 +55,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
             android:background="@color/transparent"
-            android:src="@drawable/Mobiles"
+            android:src="@drawable/mobiles"
             android:contextClickable="true"
 
             />
@@ -66,7 +66,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:background="@color/transparent"
-        android:src="@drawable/Furniture"
+        android:src="@drawable/furniture"
         android:contextClickable="true"
 
         />
@@ -77,7 +77,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:background="@color/transparent"
-        android:src="@drawable/Cars"
+        android:src="@drawable/cars"
         android:contextClickable="true"
 
         />
@@ -88,7 +88,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:background="@color/transparent"
-        android:src="@drawable/Bikes"
+        android:src="@drawable/bikes"
         android:contextClickable="true"
 
         />
@@ -99,7 +99,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:background="@color/transparent"
-        android:src="@drawable/Antiques"
+        android:src="@drawable/antiques"
         android:contextClickable="true"
 
         />
@@ -110,7 +110,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:background="@color/transparent"
-        android:src="@drawable/RealEstates"
+        android:src="@drawable/realestates"
             android:padding="6dp"
         android:contextClickable="true"
 
@@ -122,7 +122,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:background="@color/transparent"
-        android:src="@drawable/Officeequipments"
+        android:src="@drawable/officeequipments"
         android:contextClickable="true"
 
         />
@@ -133,7 +133,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:background="@color/transparent"
-        android:src="@drawable/Sports"
+        android:src="@drawable/sports"
         android:contextClickable="true"
 
         />
@@ -144,7 +144,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:background="@color/transparent"
-        android:src="@drawable/Watches"
+        android:src="@drawable/watches"
         android:contextClickable="true"
 
         /><ImageButton
@@ -154,7 +154,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:background="@color/transparent"
-        android:src="@drawable/Jwellery"
+        android:src="@drawable/jwellery"
         android:contextClickable="true"
 
         />
@@ -165,7 +165,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:background="@color/transparent"
-        android:src="@drawable/Stationery"
+        android:src="@drawable/stationery"
         android:padding="10dp"
         android:contextClickable="true"
 

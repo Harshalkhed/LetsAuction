@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
 
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -50,7 +56,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
             android:background="@color/transparent"
-            android:src="@drawable/Electronics"
+            android:src="@drawable/electronics"
             android:contextClickable="true"
 
             />
@@ -61,7 +67,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
             android:background="@color/transparent"
-            android:src="@drawable/Mobiles"
+            android:src="@drawable/mobiles"
             android:contextClickable="true"
 
             />
@@ -72,7 +78,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
             android:background="@color/transparent"
-            android:src="@drawable/Furniture"
+            android:src="@drawable/furniture"
             android:contextClickable="true"
 
             />
@@ -83,7 +89,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
             android:background="@color/transparent"
-            android:src="@drawable/Cars"
+            android:src="@drawable/cars"
             android:contextClickable="true"
 
             />
@@ -94,7 +100,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
             android:background="@color/transparent"
-            android:src="@drawable/Bikes"
+            android:src="@drawable/bikes"
             android:contextClickable="true"
 
             />
@@ -105,7 +111,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
             android:background="@color/transparent"
-            android:src="@drawable/Antiques"
+            android:src="@drawable/antiques"
             android:contextClickable="true"
 
             />
@@ -116,7 +122,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
             android:background="@color/transparent"
-            android:src="@drawable/RealEstates"
+            android:src="@drawable/realestates"
             android:padding="6dp"
             android:contextClickable="true"
 
@@ -128,7 +134,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
             android:background="@color/transparent"
-            android:src="@drawable/Officeequipments"
+            android:src="@drawable/officeequipments"
             android:contextClickable="true"
 
             />
@@ -139,7 +145,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
             android:background="@color/transparent"
-            android:src="@drawable/Sports"
+            android:src="@drawable/sports"
             android:contextClickable="true"
 
             />
@@ -150,7 +156,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
             android:background="@color/transparent"
-            android:src="@drawable/Watches"
+            android:src="@drawable/watches"
             android:contextClickable="true"
 
             /><ImageButton
@@ -160,7 +166,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:background="@color/transparent"
-        android:src="@drawable/Jwellery"
+        android:src="@drawable/jwellery"
         android:contextClickable="true"
 
         />
@@ -171,11 +177,38 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="40dp"
             android:background="@color/transparent"
-            android:src="@drawable/Stationery"
+            android:src="@drawable/stationery"
             android:padding="10dp"
             android:contextClickable="true"
 
             />
-
     </GridLayout>
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+           android:layout_height="wrap_content">
+       <ExpandableListView
+
+           android:id="@+id/expandableListView"
+           android:layout_height="match_parent"
+           android:layout_width="match_parent"
+           android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+           android:divider="@android:color/darker_gray"
+           android:dividerHeight="2dp" />
+           <ExpandableListView
+
+               android:id="@+id/expandableListView2"
+               android:layout_height="match_parent"
+               android:layout_width="match_parent"
+               android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+               android:divider="@android:color/darker_gray"
+               android:dividerHeight="2dp" />
+       </LinearLayout>
+   </ScrollView>
 </LinearLayout>
+    <include layout="@layout/activity_bottom_navigation"/>
+</android.support.design.widget.CoordinatorLayout>

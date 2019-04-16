@@ -4,7 +4,9 @@
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/title_home" />
+
+        android:title="@string/title_home"
+        />
 
     <item
         android:id="@+id/navigation_chat_button"
@@ -14,7 +16,7 @@
 
     <item
         android:id="@+id/navigation_auction_button"
-        android:icon="@mipmap/ic_auction_add"
+        android:icon="@drawable/ic_add_post"
         android:title="Auction" />
     <item
         android:id="@+id/navigation_notification"

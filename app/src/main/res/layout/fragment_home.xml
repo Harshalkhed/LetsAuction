@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:background="@drawable/landing_pagebg"
+            >
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/toolbarbg"
+                app:title="@string/app_name"
+                app:titleTextColor="#ffffff"
+
+                />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:id="@+id/linearlayot_crd1"
+                    android:layout_width="match_parent"
+                    android:layout_height="370dp"
+                    android:background="#ffffff"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/electronics"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32sp"
+                            android:layout_marginTop="20dp"
+
+                            android:background="@color/transparent"
+                            android:contextClickable="true"
+                            android:src="@drawable/electronics"
+
+                            />
+
+                        <ImageButton
+                            android:id="@+id/mobiles"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20sp"
+                            android:layout_marginTop="20dp"
+                            android:background="@color/transparent"
+                            android:contextClickable="true"
+                            android:src="@drawable/mobiles"
+
+                            />
+
+                        <ImageButton
+                            android:id="@+id/Furniture"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20sp"
+                            android:layout_marginTop="24dp"
+                            android:background="@color/transparent"
+                            android:contextClickable="true"
+                            android:src="@drawable/furniture"
+
+                            />
+
+                        <ImageButton
+                            android:id="@+id/cars"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20sp"
+                            android:layout_marginTop="20dp"
+                            android:background="@color/transparent"
+                            android:contextClickable="true"
+                            android:src="@drawable/cars"
+
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/bikes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32sp"
+                            android:layout_marginTop="40dp"
+                            android:background="@color/transparent"
+                            android:contextClickable="true"
+                            android:src="@drawable/bikes"
+
+                            />
+
+                        <ImageButton
+                            android:id="@+id/antiques"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="43dp"
+                            android:background="@color/transparent"
+                            android:contextClickable="true"
+                            android:src="@drawable/antiques"
+
+                            />
+
+                        <ImageButton
+                            android:id="@+id/realestates"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="49dp"
+                            android:background="@color/transparent"
+                            android:contextClickable="true"
+                            android:padding="6dp"
+                            android:src="@drawable/realestates"
+
+                            />
+
+
+                        <ImageButton
+                            android:id="@+id/office_equipments"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="48dp"
+                            android:background="@color/transparent"
+                            android:contextClickable="true"
+                            android:src="@drawable/officeequipments"
+
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                        <ImageButton
+                            android:id="@+id/sports"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="32sp"
+                            android:layout_marginTop="40dp"
+                            android:background="@color/transparent"
+                            android:contextClickable="true"
+                            android:src="@drawable/sports"
+
+                            />
+
+                        <ImageButton
+                            android:id="@+id/watches"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="40dp"
+                            android:background="@color/transparent"
+                            android:contextClickable="true"
+                            android:src="@drawable/watches"
+
+                            />
+
+                        <ImageButton
+                            android:id="@+id/jwellery"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="40dp"
+                            android:background="@color/transparent"
+                            android:contextClickable="true"
+                            android:src="@drawable/jwellery"
+
+                            />
+
+                        <ImageButton
+                            android:id="@+id/stationery"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="40dp"
+                            android:background="@color/transparent"
+                            android:contextClickable="true"
+                            android:padding="10dp"
+                            android:src="@drawable/stationery"
+
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/crdLiveBid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="?attr/actionBarSize"
+                            android:weightSum="3"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:weightSum="3"
+                                android:layout_weight="2.2"
+                                android:layout_marginTop="5dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="16sp"
+                                    android:textColor="@color/bottomicon"
+                                    android:text="Live Bids"
+                                    android:textStyle="bold"
+                                    android:layout_marginStart="12dp"
+                                    android:layout_weight="1"
+                                    android:layout_gravity="center"/>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_expand_more_black_24dp"
+                                    android:layout_weight="2"
+                                    android:layout_gravity="center"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/LLLiveBid"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.8"
+                                android:layout_marginStart="12dp"
+                                android:visibility="gone">
+
+                                <android.support.v7.widget.RecyclerView
+                                    android:id="@+id/recyclerViewLiveBids"
+                                    android:dividerHeight="5sp"
+                                    android:smoothScrollbar="true"
+                                    android:divider="@android:color/transparent"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="15dp"
+                                    android:orientation="vertical"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
+                        android:id="@+id/crdNormalBid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="15dp"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginTop="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="?attr/actionBarSize"
+                            android:weightSum="3"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:weightSum="3"
+                                android:layout_weight="2.2"
+                                android:layout_marginTop="5dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="16sp"
+                                    android:textColor="@color/bottomicon"
+                                    android:text="Normal Bids"
+                                    android:textStyle="bold"
+                                    android:layout_marginStart="12dp"
+                                    android:layout_weight="1"
+                                    android:layout_gravity="center"/>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ic_expand_more_black_24dp"
+                                    android:layout_weight="2"
+                                    android:layout_gravity="center"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/LLNormalBid"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.8"
+                                android:layout_marginStart="12dp"
+                                android:visibility="gone">
+
+                                <android.support.v7.widget.RecyclerView
+                                    android:id="@+id/recyclerViewNormalBids"
+                                    android:dividerHeight="5sp"
+                                    android:smoothScrollbar="true"
+                                    android:divider="@android:color/transparent"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="15dp"
+                                    android:orientation="vertical"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+    <!--<include layout="@layout/app_bar_navigavition_drawer"/>-->
+</android.support.v4.widget.DrawerLayout>

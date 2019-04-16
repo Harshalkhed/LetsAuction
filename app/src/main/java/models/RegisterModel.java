@@ -6,23 +6,23 @@ import com.google.gson.annotations.SerializedName;
 public class RegisterModel {
 
     @SerializedName("fullname")
-    @Expose
+
     private String fullname;
 
     @SerializedName("email")
-    @Expose
+
     private String email;
 
     @SerializedName("phone")
-    @Expose
+
     private String phone;
 
     @SerializedName("address")
-    @Expose
+
     private String address;
 
     @SerializedName("password")
-    @Expose
+
     private String password;
 
     public RegisterModel() {

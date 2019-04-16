@@ -21,6 +21,16 @@
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/content_navigavition_drawer" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_auction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="@dimen/fab_margin"
+        android:backgroundTint="@color/bottomicon"
+        android:background="@color/bottomicon"
+        app:srcCompat="@mipmap/ic_auction_add"
+        />
 
 
 

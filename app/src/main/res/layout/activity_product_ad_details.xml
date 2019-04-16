@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_weight="6"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/toolbarbg"
+        android:title="@string/app_name"
+        android:titleTextColor="#ffffff" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:outlineAmbientShadowColor="@color/light_gray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <HorizontalScrollView
+                android:id="@+id/crd_horizontalview_for_images"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/crd_txt_product_name"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:tooltipText="Product Name"
+                android:textColor="@color/black"
+                android:hint="Product Name"
+                android:textSize="25dp"
+                android:paddingLeft="20sp"/>
+
+            <TextView
+                android:id="@+id/crd_txt_base_price"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:tooltipText="Base Price"
+                android:textColor="#cf0003"
+                android:hint="Base price"
+                android:textSize="22dp"
+                android:paddingLeft="20sp"/>
+
+            <TextView
+                android:id="@+id/crd_txt_last_price"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:tooltipText="last bid"
+                android:textColor="#cf0003"
+                android:hint="Last bid price"
+                android:textSize="22dp"
+                android:paddingLeft="20sp"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/crd_txt_description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_weight="4">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/crd_txt_numberofbids"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:textColor="#39c4d8"
+               android:text="Total Number Of Bids"
+                android:layout_gravity="center"
+                android:textAllCaps="true"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/crd_item_id"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:textColor="#39c4d8"
+                android:textAllCaps="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:textAlignment="center"
+                android:hint="Bids"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_weight="5">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="44dp"
+            android:gravity="center_horizontal">
+
+            <Button android:id="@+id/button_decrement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="-"
+                android:textSize="20dp"/>
+
+            <TextView android:id="@+id/crd_textView_for_increment_bid"
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:layout_alignBottom="@+id/button_decrement"
+                android:layout_toRightOf="@+id/button_decrement"
+                android:gravity="center"
+                android:hint="45" />
+
+            <Button android:id="@+id/button_increment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/crd_textView_for_increment_bid"
+                android:text="+"
+                android:textSize="20dp"/>
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="6">
+
+        <Button
+            android:id="@+id/crd_btn_place_bid"
+            android:layout_width="300dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:background="@drawable/letsauction"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+

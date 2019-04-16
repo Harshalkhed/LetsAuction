@@ -29,12 +29,18 @@
             android:id="@+id/text_category"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:tooltipText="category"/>
+            android:tooltipText="category"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
     <TextView
         android:id="@+id/text_sub_category"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:tooltipText="subcategory"/>
+        android:tooltipText="subcategory"
+        android:padding="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="38dp"
@@ -45,7 +51,7 @@
     android:id="@+id/edittext_brand_name"
     android:layout_width="match_parent"
     android:layout_height="56dp"
-    android:hint="Brand name "
+    android:hint="Brand name"
     android:padding="10dp"
     android:layout_marginLeft="15dp"
     android:layout_marginRight="15dp"
@@ -98,7 +104,17 @@
         android:layout_marginRight="15dp"
         android:hint="Describe your Product"
         />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:padding="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+    </Spinner>
     <ImageButton
+        android:id="@+id/btn_image_postad"
         android:layout_width="match_parent"
         android:layout_height="180dp"
         android:src="@drawable/add_photos"

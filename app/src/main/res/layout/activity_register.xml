@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:fitsSystemWindows="true">
 
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
     <LinearLayout
+
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,79 +22,123 @@
             android:layout_gravity="center_horizontal" />
 
         <!--  Name Label -->
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp">
+
             <EditText android:id="@+id/input_name"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed"
                 android:hint="Name"
-                android:textColorHint="#000000"/>
-        </android.support.design.widget.TextInputLayout>
+                android:paddingLeft="5sp"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                android:textColor="@color/etxLogin"
+                android:textSize="18sp"/>
+    <!--<EditText-->
+            <!--android:id="@+id/etxUserName"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="#ffffff"-->
+            <!--android:drawableLeft="@drawable/ic_user"-->
+            <!--android:ems="10"-->
+            <!--android:fontFamily="sans-serif-condensed"-->
+            <!--android:hint="UserName"-->
+            <!--android:inputType="text"-->
+            <!--android:paddingLeft="5sp"-->
+            <!--android:singleLine="true"-->
+            <!--android:textAlignment="viewStart"-->
+            <!--android:textColor="@color/etxLogin"-->
+            <!--android:textSize="18sp" />-->
+
+
+
 
         <!-- Email Label -->
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp">
+
             <EditText android:id="@+id/input_email"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textEmailAddress"
-                android:hint="Email" />
-        </android.support.design.widget.TextInputLayout>
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed"
+               android:paddingLeft="5sp"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                android:textColor="@color/etxLogin"
+                android:textSize="18sp"
+                android:hint="Email"
+                />
+
+
+
 
             <!--Phone Number-->
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp">
+
             <EditText android:id="@+id/input_phone"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPhonetic"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingLeft="5sp"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                android:textColor="@color/etxLogin"
+                android:textSize="18sp"
                 android:hint="Phone Number"
                 />
-        </android.support.design.widget.TextInputLayout>
+
+
+
         <!--Address-->
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp">
+
             <EditText android:id="@+id/input_Address"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textMultiLine"
-
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingLeft="5sp"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                android:textColor="@color/etxLogin"
+                android:textSize="18sp"
                 android:hint="Address"/>
-        </android.support.design.widget.TextInputLayout>
+
+
+
+
         <!-- Password Label -->
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp">
+
             <EditText android:id="@+id/input_password"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPassword"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingLeft="5sp"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                android:textColor="@color/etxLogin"
+                android:textSize="18sp"
                 android:hint="Password"/>
-        </android.support.design.widget.TextInputLayout>
+
+
+
 
         <!-- Signup Button -->
-        <android.support.v7.widget.AppCompatButton
+        <Button
             android:id="@+id/btn_signup"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:layout_marginBottom="24dp"
-            android:padding="12dp"
+            android:layout_width="220sp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/bottomicon"
             android:text="Create Account"/>
 
 

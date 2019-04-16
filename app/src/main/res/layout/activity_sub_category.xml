@@ -14,11 +14,11 @@
         app:title="@string/app_name"
         app:titleTextColor="#ffffff"
         />
-    <ListView
+    <android.support.v7.widget.RecyclerView
         android:id="@+id/list_view_sub_category"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
 
-    </ListView>
+    </android.support.v7.widget.RecyclerView>
     </LinearLayout>

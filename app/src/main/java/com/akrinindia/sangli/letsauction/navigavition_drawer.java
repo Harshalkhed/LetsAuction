@@ -1,5 +1,6 @@
 package com.akrinindia.sangli.letsauction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -74,11 +75,18 @@ public class navigavition_drawer extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_auction) {
-            // Handle the camera action
-        } else if (id == R.id.nav_posts) {
+        if (id == R.id.nav_auction)
+        {
 
-        } else if (id == R.id.nav_home) {
+            // Handle the camera action
+        } else if (id == R.id.nav_posts)
+        {
+
+
+        }
+        else if (id == R.id.nav_home)
+        {
+
 
         } else if (id == R.id.nav_organized_auction) {
 
